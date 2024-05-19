@@ -9,12 +9,31 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@hookform/resolvers": "^3.4.0",
+    "@nextui-org/navbar": "^2.0.30",
+    "@nextui-org/react": "^2.3.6",
+    "@nextui-org/system": "^2.1.2",
+    "@nextui-org/theme": "^2.2.3",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.4",
+    "lucide-react": "^0.378.0",
     "next": "14.2.3",
+    "next-auth": "^4.24.7",
     "node": "^20.13.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-hook-form": "^7.51.4",
     "react-icons": "^5.2.1",
-    "sass": "^1.77.1"
+    "sass": "^1.77.1",
+    "shadcn-ui": "^0.8.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "wait": "^0.4.2",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -7,8 +7,8 @@ type buttonProps = {
 
 export const PrimaryButton = ({ text, className }: buttonProps) => {
   return (
-    <button className={"rounded-full p-3 cursor-pointer text-xl " + className}>
+    <div className={"rounded-full p-3 cursor-pointer text-xl " + className}>
       {text}
-    </button>
+    </div>
   );
 };

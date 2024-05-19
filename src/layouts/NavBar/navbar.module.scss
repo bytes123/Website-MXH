@@ -1,0 +1,7 @@
+.navLink {
+  @apply flex items-center gap-x-2 font-light p-4 hover:bg-slate-100 rounded-2xl;
+}
+
+.navLinkActive {
+  @apply flex items-center gap-x-2 font-light p-4 rounded-2xl bg-slate-200;
+}

@@ -1,0 +1,19 @@
+.DialogHeader {
+  @apply p-10;
+
+  .DialogDialogTitle {
+    @apply text-4xl;
+  }
+
+  .DialogFormBtn {
+    @apply w-full text-xl py-7  bg-orange-600 hover:bg-orange-700;
+  }
+}
+
+.SubAvatarMenu {
+  @apply absolute top-[110%] right-0 bg-white z-20 w-[300px]  shadow-s-2 font-normal;
+
+  &__item {
+    @apply p-4 cursor-pointer text-center hover:bg-slate-100;
+  }
+}

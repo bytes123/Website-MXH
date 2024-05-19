@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 export const useInputHeaderFocus = () => {
-  return <div>useInputHeaderFocus</div>;
+  const [isInputHeaderFocus, setIsInputHeaderFocus] = useState<Boolean>(false);
+
+  return {};
 };

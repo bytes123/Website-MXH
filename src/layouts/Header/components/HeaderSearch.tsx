@@ -12,9 +12,9 @@ export default function HeaderSearch({
   return (
     <>
       <div
-        className={`absolute w-full flex items-center z-10 px-4 ${
+        className={`absolute w-full  flex items-center z-10 px-5 ${
           isInputHeaderFocus
-            ? "bg-white border-b pb-5 rounded-t-3xl"
+            ? " bg-white  rounded-t-3xl"
             : "bg-slate-200 rounded-3xl"
         }  `}
         onFocus={onInputHeaderFocus}
@@ -29,7 +29,7 @@ export default function HeaderSearch({
         />
       </div>
       {isInputHeaderFocus ? (
-        <div className="absolute rounded-t-3xl rounded-b-3xl z-0 shadow-s-1 top-0 left-0 right-0 h-[300px] bg-white"></div>
+        <div className="absolute rounded-t-3xl rounded-b-3xl z-0 shadow-s-1 top-0  left-0 right-0 h-[300px] bg-white"></div>
       ) : (
         ""
       )}
