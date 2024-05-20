@@ -1,6 +1,6 @@
 import type { CoreComponentsProps } from "@/types";
 
-const GridBox = (props: Readonly<CoreComponentsProps>) => {
+export const GridBox = (props: Readonly<CoreComponentsProps>) => {
   const { children, classNames, onClick, id, elementRef } = props;
 
   return (
@@ -14,5 +14,3 @@ const GridBox = (props: Readonly<CoreComponentsProps>) => {
     </div>
   );
 };
-
-export default GridBox;

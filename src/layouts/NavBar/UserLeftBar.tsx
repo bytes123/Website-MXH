@@ -2,10 +2,10 @@
 import React, { useEffect, useRef, useState } from "react";
 import NavList from "./components/NavList";
 import NavItem from "./components/NavItem";
-import { NavData } from "@/data";
 import Link from "next/link";
 import styles from "./navbar.module.scss";
 import { usePathname } from "next/navigation";
+import { NavData } from "@/data";
 
 interface props {
   className?: string;

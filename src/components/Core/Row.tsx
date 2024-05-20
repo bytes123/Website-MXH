@@ -1,6 +1,6 @@
 import type { CoreComponentsProps } from "@/types";
 
-const Row = (props: Readonly<CoreComponentsProps>) => {
+export const Row = (props: Readonly<CoreComponentsProps>) => {
   const { children, classNames, onClick, id, elementRef } = props;
 
   return (
@@ -14,5 +14,3 @@ const Row = (props: Readonly<CoreComponentsProps>) => {
     </div>
   );
 };
-
-export default Row;

@@ -1,9 +1,9 @@
 "use client";
-import { RecentPost } from "@/types/RecentPost";
+import { RecentPost } from "@/types";
 import Image from "next/image";
 import React, { useState } from "react";
 
-export default function UserRightBar() {
+export function UserRightBar() {
   const [isClearPost, setIsClearPost] = useState<boolean>(false);
   const [fakeRecentPosts, setRecentPosts] = useState<RecentPost[]>([
     {

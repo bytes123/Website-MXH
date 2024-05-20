@@ -1,13 +1,11 @@
-"use client";
 import { Inter } from "next/font/google";
 import "../globals.css";
 import { Header, Footer, UserLeftBar } from "@/layouts";
 import Providers from "@/api/Providers";
 import { NextUIProvider } from "@nextui-org/react";
-import { Suspense, useEffect } from "react";
+import { Suspense } from "react";
 import Loading from "./loading";
-import Row from "@/components/Core/Row";
-import Box from "@/components/Core/Box";
+import { Box, Row } from "@/components";
 const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({
   children,
