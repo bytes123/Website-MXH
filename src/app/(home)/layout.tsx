@@ -6,6 +6,8 @@ import Providers from "@/api/Providers";
 import { NextUIProvider } from "@nextui-org/react";
 import { Suspense, useEffect } from "react";
 import Loading from "./loading";
+import Row from "@/components/Core/Row";
+import Box from "@/components/Core/Box";
 const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({
   children,
@@ -19,12 +21,12 @@ export default function RootLayout({
           <NextUIProvider>
             <Providers>
               <Header />
-              <div className="flex ">
+              <Row>
                 <UserLeftBar className="navBar sticky top-[92px] hidden xl:block" />
-                <div className="w-full overflow-y-auto h-[100vh]">
+                <Box classNames="w-full overflow-y-auto h-[85vh] xl:h-[88vh]">
                   {children}
-                </div>
-              </div>
+                </Box>
+              </Row>
             </Providers>
           </NextUIProvider>
         </Suspense>

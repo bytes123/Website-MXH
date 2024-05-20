@@ -1,3 +1,4 @@
+import { HomePage } from "@/pages";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -6,5 +7,5 @@ export const metadata: Metadata = {
 };
 
 export default function Home() {
-  return <main className="min-h-[100vh]">qwdqw</main>;
+  return <HomePage />;
 }
